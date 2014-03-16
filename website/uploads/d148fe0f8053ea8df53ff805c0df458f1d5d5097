@@ -1,0 +1,122 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package moodleObjects;
+
+/**
+ *
+ * @author josh
+ */
+public abstract class course extends moodleObj 
+{
+
+     private String courseFullName;
+     private String courseShortName;
+     private String courseCategory;
+     private String courseStartDate;  
+     private String courseIDNumber;
+     private String courseSummary;
+     private String courseSummaryFiles;    
+
+    /**
+     * @return the courseFullName
+     */
+    public String getCourseFullName() {
+        return courseFullName;
+    }
+
+    /**
+     * @param courseFullName the courseFullName to set
+     */
+    public void setCourseFullName(String courseFullName) {
+        this.courseFullName = courseFullName;
+    }
+
+    /**
+     * @return the courseShortName
+     */
+    public String getCourseShortName() {
+        return courseShortName;
+    }
+
+    /**
+     * @param courseShortName the courseShortName to set
+     */
+    public void setCourseShortName(String courseShortName) {
+        this.courseShortName = courseShortName;
+    }
+
+    /**
+     * @return the courseCategory
+     */
+    public String getCourseCategory() {
+        return courseCategory;
+    }
+
+    /**
+     * @param courseCategory the courseCategory to set
+     */
+    public void setCourseCategory(String courseCategory) {
+        this.courseCategory = courseCategory;
+    }
+
+    /**
+     * @return the courseStartDate
+     */
+    public String getCourseStartDate() {
+        return courseStartDate;
+    }
+
+    /**
+     * @param courseStartDate the courseStartDate to set
+     */
+    public void setCourseStartDate(String courseStartDate) {
+        this.courseStartDate = courseStartDate;
+    }
+
+    /**
+     * @return the courseIDNumber
+     */
+    public String getCourseIDNumber() {
+        return courseIDNumber;
+    }
+
+    /**
+     * @param courseIDNumber the courseIDNumber to set
+     */
+    public void setCourseIDNumber(String courseIDNumber) {
+        this.courseIDNumber = courseIDNumber;
+    }
+
+    /**
+     * @return the courseSummary
+     */
+    public String getCourseSummary() {
+        return courseSummary;
+    }
+
+    /**
+     * @param courseSummary the courseSummary to set
+     */
+    public void setCourseSummary(String courseSummary) {
+        this.courseSummary = courseSummary;
+    }
+
+    /**
+     * @return the courseSummaryFiles
+     */
+    public String getCourseSummaryFiles() {
+        return courseSummaryFiles;
+    }
+
+    /**
+     * @param courseSummaryFiles the courseSummaryFiles to set
+     */
+    public void setCourseSummaryFiles(String courseSummaryFiles) {
+        this.courseSummaryFiles = courseSummaryFiles;
+    }
+    
+    
+    
+}
